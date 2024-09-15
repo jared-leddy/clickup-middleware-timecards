@@ -1,0 +1,35 @@
+{
+  "name": "node-middleware-clickup-timecards",
+  "version": "1.0.0",
+  "description": "Node.js custom middleware that uses the ClickUp API to acess user, client and time tracking data for custom reporting use cases.",
+  "main": "app.js",
+  "scripts": {
+    "start-dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carbondigitalus/node-middleware-clickup-timecards.git"
+  },
+  "keywords": [
+    "node",
+    "middleware",
+    "clickup",
+    "api",
+    "timecard"
+  ],
+  "author": "carbondigitalus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carbondigitalus/node-middleware-clickup-timecards/issues"
+  },
+  "homepage": "https://github.com/carbondigitalus/node-middleware-clickup-timecards#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
