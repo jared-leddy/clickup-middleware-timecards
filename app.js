@@ -1,13 +1,5 @@
-// Core Modules
-
-
 // NPM Modules
 require('dotenv').config();
-
-// Custom Modules
-
-
-
 
 // request({
 //   method: 'POST',
@@ -18,16 +10,6 @@ require('dotenv').config();
 //   console.log('Response:', body);
 // });
 
-
-
-
-
-
-
-
-
-
-
 const https = require('https');
 
 const options = {
@@ -35,9 +17,6 @@ const options = {
   path: `/api?client_id=${process.env.client_id}&redirect_uri=${process.env.redirect_uri}`,
   method: 'GET'
 };
-
-
-
 
 const req = https.request(options, (res) => {
   console.log('statusCode:', res.statusCode);
